@@ -5,7 +5,7 @@ var multer = require('multer')
 
 var mongoose = require('mongoose');
 var bodyParser = require('body-parser');
-var uri_mongoose = "mongodb+srv://doanh:doanh@doanhcluster.arwi8.mongodb.net/TinderFake?retryWrites=true&w=majority";
+var uri_mongoose = "mongodb+srv://admin:long123@cluster0.1qo8p.mongodb.net/test?retryWrites=true&w=majority";
 
 router.use(bodyParser.json());       // to support JSON-encoded bodies
 router.use(bodyParser.urlencoded({     // to support URL-encoded bodies
